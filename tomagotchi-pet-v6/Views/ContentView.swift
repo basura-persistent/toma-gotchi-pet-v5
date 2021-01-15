@@ -6,6 +6,7 @@
 //hector
 // johny boi
 // rohit boi
+//unable to add print
 import SwiftUI
 
   struct ContentView: View {
@@ -142,13 +143,12 @@ import SwiftUI
           }
       }
   }
-  
-  struct Login : View {
+
+    struct Login : View {
       
-    @State var email: String = ""//user input saved here
+    @State var email: String = "Hellp"//user input saved here
     @State var pass: String = ""
       @Binding var index : Int
-      
       var body: some View{
           
           ZStack(alignment: .bottom) {

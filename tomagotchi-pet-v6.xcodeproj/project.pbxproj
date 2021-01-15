@@ -72,9 +72,17 @@
 		7F8A26C125B0DBB900CD82DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7F8A26C925B12B1700CD82DA /* Helper */,
 				7F8A26B325B0D7BB00CD82DA /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7F8A26C925B12B1700CD82DA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
